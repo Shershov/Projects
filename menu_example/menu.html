@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <title>Top menu</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <ul class="top__menu">
+            <li>
+                <a href="#">Бытовая техника</a>
+                <ul class="sub__menu">
+                    <li><a href="#">Стиральные машины</a></li>
+                    <li><a href="#">Стиральные машины</a></li>
+                    <li><a href="#">Пылесосы</a></li>
+                    <li><a href="#">Швейные, вышивальные машины</a></li>
+                    <li><a href="#">Утюги</a></li>
+                    <li><a href="#">Электровеники</a></li>
+                    <li><a href="#">Сушилки для обуви</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Техника для кухни</a>
+                <ul class="sub__menu">
+                    <li><a href="#">Холодильники</a></li>
+                    <li><a href="#">Кухонные плиты</a></li>
+                    <li><a href="#">Морозильники</a></li>
+                    <li><a href="#">Настольные плиты</a></li>
+                    <li><a href="#">Ростеры, мини-печи</a></li>
+                    <li><a href="#">Вытяжки</a></li>
+                    <li><a href="#">Микроволновые печи</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Компьютерная техника</a>
+                <ul class="sub__menu">
+                    <li><a href="#">Ноутбуки</a></li>
+                    <li><a href="#">Планшеты</a></li>
+                    <li><a href="#">Компьютеры, моноблоки</a></li>
+                    <li><a href="#">Игровые приставки</a></li>
+                    <li><a href="#">Серверное оборудование</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Корзина</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="form__wrap">
+        <label>Введите фамилию</label>
+        <input type="text">
+        <label>Введите имя</label>
+        <input type="text">
+        <label>Номер телефона</label>
+        <input type="text">
+        <label>Введите E-mail</label>
+        <input type="email">
+
+        <p>Выберите способ доставки:</p>
+        <input type="radio" name="carry" value="self"> <label>Самовывоз со склада по адресу: <a class="adress" href="#">деревня Простоквашино, д.9, Матроскин</a></label>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84713.47189559322!2d-75.58234272605436!3d6.230327533922795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2z0JHQvtCz0L7RgtCwLCDQmtC-0LvRg9C80LHQuNGP!5e0!3m2!1sru!2sby!4v1567420712549!5m2!1sru!2sby"
+            width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <br>
+        <input type="radio" name="carry" value="notself"> <label><a href="#">Курьером по Минску</a></label>
+        <textarea rows="5" cols="30" name="text" placeholder="Введите комментарий"></textarea>
+        <div class="agreement">
+            <input type="checkbox">
+            <label>Я прочитал и согласен с <a href="#">условиями доставки</a> </label>
+        </div>
+        <input type="submit" value="Подтвердить заказ">
+    </div>
+
+</body>
+
+</html>
