@@ -1,0 +1,14 @@
+.about-us {
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+}
+
+.about-us__img {
+    flex-basis: 43%;
+    margin-right: 95px;
+}
+
+.about-us__text {
+    flex-basis: calc(100%-43%-95px);
+}
