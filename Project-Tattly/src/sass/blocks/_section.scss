@@ -1,0 +1,381 @@
+.section {
+    min-width: 1600px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 55px;
+    margin: 0 auto;
+}
+
+.section__title {
+    text-align: center;
+    margin-bottom: 55px;
+    & h2 {
+        font-size: 3em;
+        font-weight: 700;
+        color: $black;
+        margin: 0 0 17.5px;
+    }
+}
+
+.section__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    gap: 40px;
+    place-items: center center;
+}
+
+.tatoo__link {
+    display: block;
+    height: 400px;
+}
+
+.card__tatoo {
+    min-width: 323px;
+    min-height: 323px;
+}
+
+.first__image {
+    background-image: url(../../../public/images/brand_new/moon.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.first__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/moon_alt.jpg);
+}
+
+.tatoo__sale {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    & .tatoo__name,
+    .tatoo__price {
+        font-size: 1.16667em;
+        color: $black;
+        font-weight: 700;
+    }
+}
+
+.tatoo__info {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    & .tatoo__author {
+        font-size: 18px;
+        color: $black;
+        font-weight: 400;
+    }
+    & .tatoo__set {
+        font-size: 0.85em;
+        text-transform: uppercase;
+        color: #b3b3b3;
+    }
+}
+
+.second__image {
+    background-image: url(../../../public/images/brand_new/victory.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.second__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/hands.jpg);
+}
+
+.third__image {
+    background-image: url(../../../public/images/brand_new/twist.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.third__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/arm.jpg);
+}
+
+.fourth__image {
+    background-image: url(../../../public/images/brand_new/bodies.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fourth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/arm-body.jpg);
+}
+
+.fifth__image {
+    background-image: url(../../../public/images/brand_new/pen.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fifth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/pen-body.jpg);
+}
+
+.sixth__image {
+    background-image: url(../../../public/images/brand_new/tomato.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.sixth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/tomato-body.jpg);
+}
+
+.seventh__image {
+    background-image: url(../../../public/images/brand_new/flower.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.seventh__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/flower2.jpg);
+}
+
+.eigth__image {
+    background-image: url(../../../public/images/brand_new/bee.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.eigth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/brand_new/bee-neck.jpg);
+}
+
+.tenth__image {
+    background-image: url(../../../public/images/spooky_scary/spyder.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.tenth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/spyder-body.jpg);
+}
+
+.eleventh__image {
+    background-image: url(../../../public/images/spooky_scary/cryheart.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.eleventh__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/cryheart-body.jpg);
+}
+
+.twelfth__image {
+    background-image: url(../../../public/images/spooky_scary/heart.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.twelfth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/heart-body.jpg);
+}
+
+.thirteenth__image {
+    background-image: url(../../../public/images/spooky_scary/flash.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.thirteenth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/flash-full.jpg);
+}
+
+.fourteenth__image {
+    background-image: url(../../../public/images/spooky_scary/facial.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fourteenth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/facial-body.jpg);
+}
+
+.fifteenth__image {
+    background-image: url(../../../public/images/spooky_scary/snake.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fifteenth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/snake-body.jpg);
+}
+
+.sixteenth__image {
+    background-image: url(../../../public/images/spooky_scary/skeleton.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.sixteenth__image:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/spooky_scary/skeleton-body.jpg);
+}
+
+.btn__center {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.btn__view {
+    display: inline-block;
+    margin: 55px 0;
+    padding: 4px 0;
+    color: $black;
+    border-bottom: 1px solid $black;
+    font-size: 1.25em;
+    font-weight: 700;
+}

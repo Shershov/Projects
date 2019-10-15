@@ -1,0 +1,47 @@
+.intro {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    margin: 55px 0;
+}
+
+.intro__inner-left {
+    display: block;
+    width: calc(60% - 25px);
+    height: 650px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/files/2019_moon_phases_launch_1080x.jpg?v=1570545114);
+    background-position: center;
+    margin-right: 25px;
+}
+
+.intro__text {
+    padding: 55px;
+}
+
+.intro__title {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.intro__subtitle {
+    font-size: 1.22222em;
+    color: #fff;
+}
+
+.intro__inner-right {
+    display: flex;
+    width: 40%;
+    height: 650px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/files/2019_glow_in_the_dark_900x.jpg?v=1568729700);
+    background-position: center;
+}
+
+.green {
+    align-self: flex-end;
+    text-align: right;
+    margin-left: auto;
+    color: #98e969;
+}

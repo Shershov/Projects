@@ -1,0 +1,44 @@
+.about {
+    padding-top: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.about__title {
+    margin-bottom: 55px;
+    text-align: center;
+    & h2 {
+        font-size: 3em;
+        line-height: 1.1;
+        font-weight: 700;
+    }
+}
+
+.about__content {
+    display: flex;
+}
+
+.about__item {
+    width: 25%;
+    padding-left: 30px;
+    text-align: center;
+    & img {
+        width: 250px;
+        height: 250px;
+    }
+    & .about__text {
+        text-align: center;
+        max-width: 350px;
+        margin: 0 0 19.44444px;
+    }
+}
+
+.btn__center--about {
+    padding-top: 0;
+    & .btn__view {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}

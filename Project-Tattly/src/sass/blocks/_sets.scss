@@ -1,0 +1,43 @@
+.sets {
+    width: 100%;
+    height: 790px;
+    padding: 55px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sets__item {
+    display: block;
+    width: 32%;
+    height: 100%;
+    & h2 {
+        font-size: 1.5em;
+        line-height: 1.1;
+        font-weight: 700;
+        color: #fff;
+        text-align: right;
+        padding: 50px 50px 0 0;
+    }
+}
+
+.left {
+    background-image: url(../../../public/images/sets.jpg);
+    background-position: center center;
+}
+
+.middle {
+    background-image: url(../../../public/images/tins.jpg);
+    background-position: center center;
+    & h2 {
+        color: $black;
+    }
+}
+
+.right {
+    background-image: url(../../../public/images/sheets.jpg);
+    background-position: center center;
+    & h2 {
+        text-align: left;
+        padding: 50px 0 0 45px;
+    }
+}

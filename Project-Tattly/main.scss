@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Proxima nova Rg';
+    src: url(/public/fonts/ProximaNova-Regular/ProximaNova-Regular/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/public/fonts/helvetica/HelveticaMedium/HelveticaMedium.ttf);
+}
+
+@import "src/sass/core/vars";
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: $black;
+    font-family: $main-font;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.main__wrap {
+    padding: 0;
+    margin-top: 137.5px;
+}
+
+// blocks
+@import "src/sass/blocks/_header";
+@import "src/sass/blocks/_banner";
+@import "src/sass/blocks/_intro";
+@import "src/sass/blocks/_section";
+@import "src/sass/blocks/_sets";
+@import "src/sass/blocks/_about";
+@import "src/sass/blocks/_footer";
