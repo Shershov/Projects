@@ -1,0 +1,90 @@
+.author {
+    padding-top: 110px;
+    margin-bottom: 110px;
+    background-color: #d7f3fb;
+}
+
+.center__content {
+    min-width: 1600px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author__left {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.view__link {
+    display: block;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    padding: 0.25em 0;
+    color: #242021;
+    position: relative;
+    right: -23px;
+}
+
+.view__arrow {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: -23px;
+}
+
+.author__photo {
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+.author__right {
+    width: 42%;
+    padding-left: 30px;
+    & h1 {
+        font-size: 6em;
+        line-height: 1;
+        margin: 0 0 17.5px;
+        font-weight: 700;
+    }
+    & p {
+        margin-top: 1.5em;
+        margin-bottom: 19.44444px;
+    }
+    & ul {
+        margin: 1.5em 0 0;
+        padding-top: 0.75em;
+        padding-left: 0;
+        list-style: none;
+        font-size: 1.25em;
+        background: url(//cdn.shopify.com/s/files/1/0080/8372/t/37/assets/wave.svg?7034) left top no-repeat;
+    }
+    & ul>li {
+        margin: 0;
+    }
+}
+
+dl {
+    margin: 0.25em 0;
+}
+
+dt,
+dd {
+    display: inline-block;
+}
+
+dt {
+    margin-right: 0.25em;
+    font-weight: 700;
+}
+
+dd {
+    margin: 0;
+}
+
+.no-line {
+    text-decoration: none;
+}

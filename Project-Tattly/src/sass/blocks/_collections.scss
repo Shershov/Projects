@@ -1,0 +1,318 @@
+.collections {
+    padding-top: 0;
+}
+
+.section__title--Tea {
+    text-align: left;
+    & h2 {
+        line-height: 1.1;
+    }
+    & h2>span {
+        color: #8f91c6;
+    }
+}
+
+.sale {
+    width: 100px;
+    height: 32px;
+    shape-outside: polygon(0 0, 100% 0, 85px 15px, 100% 100%, 0 100%);
+    shape-margin: 20px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 85px 15px, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 85px 15px, 100% 100%, 0 100%);
+    padding: 0.4em 0.5em 0.25em 0.75em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    background-color: #ec2227;
+    position: relative;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+
+#discount {
+    color: #ec2227;
+}
+
+.first__image-tea {
+    position: relative;
+    background-image: url(../../../public/images/collections/crystal.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.first__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/crystal-body.jpg);
+}
+
+.second__image-tea {
+    background-image: url(../../../public/images/collections/antlers.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.second__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/antlers-body.jpg);
+}
+
+.third__image-tea {
+    background-image: url(../../../public/images/collections/doe.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.third__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/doe-body.jpg);
+}
+
+.fourth__image-tea {
+    background-image: url(../../../public/images/collections/gems.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fourth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/gems-alt.jpg);
+}
+
+.fifth__image-tea {
+    background-image: url(../../../public/images/collections/fern.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fifth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/fern-body.jpg);
+}
+
+.sixth__image-tea {
+    background-image: url(../../../public/images/collections/flora.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.sixth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/flora-body.jpg);
+}
+
+.seventh__image-tea {
+    background-image: url(../../../public/images/collections/mistle.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.seventh__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/mistle-body.jpg);
+}
+
+.eigth__image-tea {
+    background-image: url(../../../public/images/collections/pinky.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.eigth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/pinky-body.jpg);
+}
+
+.ninth__image-tea {
+    background-image: url(../../../public/images/collections/rose.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.ninth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/rose-body.jpg);
+}
+
+.tenth__image-tea {
+    background-image: url(../../../public/images/collections/rosebud.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.tenth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/rosebud-body.jpg);
+}
+
+.eleventh__image-tea {
+    background-image: url(../../../public/images/collections/serpent.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.eleventh__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/serpent-body.jpg);
+}
+
+.twelfth__image-tea {
+    background-image: url(../../../public/images/collections/snowflake.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.twelfth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/snowflake-body.jpg);
+}
+
+.thirteenth__image-tea {
+    background-image: url(../../../public/images/collections/song_bird.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.thirteenth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/songbird-body.jpg);
+}
+
+.fourteenth__image-tea {
+    background-image: url(../../../public/images/collections/sprig.png);
+    background-position: center;
+    background-size: cover;
+    &:hover:after {
+        opacity: 1;
+        transition: opacity ease-out .3s;
+    }
+}
+
+.fourteenth__image-tea:after {
+    opacity: 0;
+    content: "";
+    display: block;
+    width: 323px;
+    height: 323px;
+    background-size: cover;
+    background-image: url(../../../public/images/collections/sprig-body.jpg);
+}
