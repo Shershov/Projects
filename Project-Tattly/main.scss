@@ -46,6 +46,18 @@ p {
     margin-top: 137.5px;
 }
 
+@media (max-width: 989px) {
+    .main__wrap {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 750px) {
+    .main__wrap {
+        margin-top: 87px;
+    }
+}
+
 // blocks
 @import "src/sass/blocks/_header";
 @import "src/sass/blocks/_banner";
@@ -56,3 +68,5 @@ p {
 @import "src/sass/blocks/_footer";
 @import "src/sass/blocks/_author";
 @import "src/sass/blocks/_collections";
+@import "src/sass/blocks/_intro-blog";
+@import "src/sass/blocks/_block-cards";

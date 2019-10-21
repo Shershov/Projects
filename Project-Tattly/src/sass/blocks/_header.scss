@@ -73,3 +73,39 @@
     margin-right: 3px;
     margin-left: 15px;
 }
+
+@media (max-width: 989px) {
+    .header {
+        max-height: 100px;
+    }
+    .header__right-title {
+        margin-bottom: .25em;
+    }
+    .logo__img>img {
+        width: 90px;
+        height: 34px;
+    }
+    .header__right-nav>a>span {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .header {
+        padding: 0;
+    }
+    .header__nav,
+    .header__right-title {
+        display: none;
+    }
+    .header__right-nav {
+        padding-right: 22px;
+    }
+    .logo__img {
+        padding-left: 22px;
+        & img {
+            width: 170px;
+            height: 64px;
+        }
+    }
+}

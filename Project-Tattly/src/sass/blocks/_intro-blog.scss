@@ -1,0 +1,63 @@
+.content__wrap {
+    padding-top: 55px;
+}
+
+.blog__header {
+    padding-top: 20px;
+    background-color: #eaf3f9;
+    margin-bottom: 110px;
+}
+
+.blog__block-content {
+    max-width: 1400px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 0 auto;
+}
+
+.inner__wrap {
+    margin-bottom: 55px;
+}
+
+.section__header {
+    margin-bottom: 55px;
+    height: 129px;
+    background: url(//cdn.shopify.com/s/files/1/0080/8372/t/37/assets/blog-title_260x@2x.png?7088) left center no-repeat;
+    background-size: contain;
+}
+
+.img__container {
+    width: 981.25px;
+    height: 785px;
+    margin-bottom: 20px;
+    background: url(../../../public/images/blog/blog_pumpkin.jpg) center no-repeat;
+    background-size: 100%;
+}
+
+.category {
+    font-size: 1.25em;
+    color: #4d4446;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 17.5px;
+}
+
+.main__blog-title {
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 17.5px;
+}
+
+.rte {
+    font-size: 1.25em;
+    margin-bottom: 35px;
+}
+
+.article__date {
+    display: inline-block;
+    margin-bottom: 22px;
+    color: #b3b3b3;
+}

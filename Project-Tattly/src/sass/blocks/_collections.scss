@@ -13,12 +13,12 @@
 }
 
 .sale {
-    width: 100px;
+    width: 70px;
     height: 32px;
     shape-outside: polygon(0 0, 100% 0, 85px 15px, 100% 100%, 0 100%);
     shape-margin: 20px;
     -webkit-clip-path: polygon(0 0, 100% 0, 85px 15px, 100% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 85px 15px, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 55px 15px, 100% 100%, 0 100%);
     padding: 0.4em 0.5em 0.25em 0.75em;
     font-size: 0.8em;
     text-transform: uppercase;

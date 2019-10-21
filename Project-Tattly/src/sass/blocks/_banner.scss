@@ -5,19 +5,22 @@
     background-image: url(https://cdn.shopify.com/s/files/1/0080/8372/files/tattlyween_homepage_banner_1512x.gif?v=1570116714);
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .banner__full-link {
     display: block;
     height: 100%;
-    position: relative;
 }
 
-.banner__btn-link {
+.banner__inner {
     position: absolute;
     bottom: 5%;
     left: 45%;
     z-index: 1;
+}
+
+.banner__btn-link {
     width: 205px;
     background-color: #ff4f00;
     transition: .3s;
@@ -28,4 +31,18 @@
     letter-spacing: 0.08em;
     text-align: center;
     padding: 10px 18px;
+}
+
+@media (max-width: 989px) {
+    .banner {
+        height: 582px;
+    }
+}
+
+@media (max-width: 750px) {
+    .banner__inner {
+        position: static;
+        text-align: center;
+        padding: 22px;
+    }
 }
