@@ -1,0 +1,20 @@
+    @font-face {
+        font-family: proxima;
+        src: url("../fonts/proximanova-bold-webfont.woff"), url(../fonts/proximanova-bold-webfont.woff2);
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: proxima;
+        src: url("../fonts/proximanova-light-webfont.woff"), url(../fonts/proximanova-light-webfont.woff2);
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: proxima;
+        src: url("../fonts/proximanova-semibold-webfont.woff"), url(../fonts/proximanova-semibold-webfont.woff2);
+        font-weight: 600;
+        font-style: normal;
+    }
