@@ -1,0 +1,32 @@
+.films {
+    margin-top: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+    place-items: center center;
+}
+
+.film__card {
+    width: 100%;
+}
+
+.film__card>a {
+    display: block;
+}
+
+.film__card>a>img {
+    height: 370px;
+    width: 100%;
+}
+
+.film__descr>h3 {
+    margin: 5px 0;
+    color: black;
+    width: 100%;
+}
+
+.film__descr>span {
+    color: #a6a6a6;
+    font-style: 0.9rem;
+}

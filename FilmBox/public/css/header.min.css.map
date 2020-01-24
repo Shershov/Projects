@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,AAAC,CACA,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,GAAG,CACxB",
+    "sources": [
+        "../../scss/blocks/header.scss"
+    ],
+    "names": [],
+    "file": "header.min.css"
+}

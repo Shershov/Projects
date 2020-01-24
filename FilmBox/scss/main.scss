@@ -1,0 +1,24 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #2B2A2C;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+// blocks
+@import "blocks/_header";
+@import "blocks/_films";
