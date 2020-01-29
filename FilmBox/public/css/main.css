@@ -144,9 +144,10 @@ a {
 
 .film__card {
   width: 100%;
+  min-height: 450px;
 }
 
-.film__card > a {
+.poster {
   display: block;
 }
 
@@ -156,6 +157,7 @@ a {
 }
 
 .film__descr > h3 {
+  font-size: 1.3rem;
   margin: 5px 0;
   color: black;
   width: 100%;
@@ -163,6 +165,6 @@ a {
 
 .film__descr > span {
   color: #a6a6a6;
-  font-style: 0.9rem;
+  font-size: 1.1rem;
 }
 /*# sourceMappingURL=main.css.map */
