@@ -1,4 +1,36 @@
 let films = {
+    '1': {
+        'img': '../img/posters/bloodshot.jpeg',
+        'name': 'Бладшот',
+        'year': '2019',
+        'country': 'США',
+        'genre': 'Боевик',
+        'director': 'Дейв Уилсон',
+    },
+    '2': {
+        'img': '../img/posters/joker.jpeg',
+        'name': 'Джокер',
+        'year': '2019',
+        'country': 'США',
+        'genre': 'Драма',
+        'director': 'Тодд Филлипс',
+    },
+    '3': {
+        'img': '../img/posters/casino.jpeg',
+        'name': 'Казино',
+        'year': '1995',
+        'country': 'США',
+        'genre': 'Драма',
+        'director': 'Мартин Скорсезе',
+    },
+    '4': {
+        'img': '../img/posters/boy.jpeg',
+        'name': 'Кукла-2',
+        'year': '2020',
+        'country': 'Нидерланды',
+        'genre': 'Ужасы',
+        'director': 'Уильям Брент Белл',
+    },
     '5': {
         'img': '../img/posters/primal.jpeg',
         'name': 'Звериная ярость',
@@ -59,10 +91,12 @@ let films = {
     },
 };
 
-let out = '';
 
 for (let key in films) {
-    out += `<div class="film__card">`;
+    let node = document.createElement('div');
+    node.className = 'film__card';
+    let out = '';
+
     out += `<a class="poster" href="">`;
     out += `<img src="${films[key].img}" alt="">`;
     out += `<div class="film__descr">`;
@@ -73,9 +107,8 @@ for (let key in films) {
     out += `<span>${films[key].director}</span>`;
     out += `</div>`;
     out += `</a>`;
-    out += `</div>`;
 
-}
+    node.innerHTML = out;
+    document.getElementById('films').appendChild(node);
 
-let div = document.getElementById('films');
-div.innerHTML = div.innerHTML + out;
+};
