@@ -1,0 +1,73 @@
+.carousel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.item__container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.item {
+    display: none;
+    position: relative;
+    margin: 0 auto;
+}
+
+.active__slide,
+.next__slide {
+    display: block;
+}
+
+.next__slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.description {
+    display: flex;
+    margin: 30px 20%;
+    font-size: 24px;
+    border: 1px solid #000;
+    justify-content: space-between;
+}
+
+.project__name {
+    padding: 10px;
+}
+
+.control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    cursor: pointer;
+}
+
+.control.left {
+    left: 0;
+    right: auto;
+}
+
+.control.right {
+    left: auto;
+    right: 0;
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 84px;
+}
+
+.arrow.right {
+    right: 50%;
+}
